@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
-
 /**
  * @ClassName LeetCode
  * @Description
@@ -72,8 +70,6 @@ public class LeetCode {
             for (int j = n - 1; j > 0; j--) {
                 nums[j] = nums[j - 1];
             }
-            System.out.println(i);
-            System.out.println(Arrays.toString(nums));
             //每轮移动完成后,首位和末尾进行交换
             nums[0] = temp;
         }
